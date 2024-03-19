@@ -99,17 +99,49 @@
         clear: both;
         width: 100%;
       }
+      nav>ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav>ul>li {
+            float: left;
+        }
+
+      nav>ul>li>a {
+        display: block;
+        text-decoration: none;
+        /* list-style-type:none; */
+        /* text-align: center; */
+        padding: 15px;
+      }
+
+      /* nav>ul>li a {
+            /* display: block; */
+            /* color: white; */
+            /* text-align: center; */
+            /* padding: 16px; */
+            /* text-decoration: none; */
+            /* font-weight: bold; */
+         */
+
     </style>
   </head>
   <body>
     <header id="mainheader">
       <nav class="logo">
-        <img
-          style="padding-left: 10px"
-          src="/06/demos/favicon.png"
-          alt="logo"
-          width="50"
-        />
+        <ul>
+          <li> <img
+            style="padding-left: 10px"
+            src="/06/demos/favicon.png"
+            alt="logo"
+            width="50"
+          /></li>
+          <li><a href="index.html">home</a></li>
+          <li><a href="pieoverview.html">pie overview</a></li>
+        </ul>
+       
       </nav>
     </header>
     <div>
